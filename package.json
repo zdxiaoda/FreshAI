@@ -1,0 +1,24 @@
+{
+  "name": "freshai",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "中文标点符号修正器 - 将 AI 生成的半角标点转换为中文全角",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "docx": "^9.7.1",
+    "jszip": "^3.10.1",
+    "mammoth": "^1.12.0",
+    "marked": "^18.0.5",
+    "mdui": "^2.1.4",
+    "vue": "^3.5.34"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.6",
+    "vite": "^8.0.12"
+  }
+}
